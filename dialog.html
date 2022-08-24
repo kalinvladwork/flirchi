@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>dialog</title>
+    <script  type="text/javascript" src="libs/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="libs/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="libs/jquery.jscrollpane.min.js"></script>
+    <link rel="stylesheet" href="css/base.css"/>
+</head>
+<body>
+<div class="wrapper">
+    <!--header-->
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="logo">
+        </a>
+        <div class="navbar">
+            <nav class="nav">
+                <a class="nav_item" href="#">Симпатии</a>
+                <a class="nav_item" href="#">Онлайн</a>
+                <a class="nav_item" href="#">Сообщения</a> <span class="nav_item_number">8</span>
+                <a class="nav_item" href="#">Монстрик</a>
+            </nav>
+            <div class="updatesbox">
+                <span id="updates">Обновления</span>
+                <div class="drop_updates">
+                    <ul class="drop_updates_box">
+                        <li class="drop_updates_item"><a href="#" class="item_discount">Скидка на премиум</a></li>
+                        <li class="drop_updates_item"><span class="drop_pictInfo drop_pictInfo_orange">13</span><a href="#">Взаимные симпатии</a></li>
+                        <li class="drop_updates_item"><span class="drop_pictInfo drop_pictInfo_orange"> 87</span><a href="#">Мне нравятся</a></li>
+                        <li class="drop_updates_item"><span class="drop_pictInfo"></span><a href="#">Кому я нравлюсь</a></li>
+                        <li class="drop_updates_item"><span class="drop_pictInfo"></span><a href="#">Контакты</a></li>
+                        <li class="drop_updates_item"><span class="drop_pictInfo"></span><a href="#">Мое фото оценили</a></li>
+                        <li class="drop_updates_item"><span class="drop_pictInfo drop_pictInfo_orange">5</span><a href="#">Посетители</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="profileBox">
+            <div class="profileBox_money">256</div>
+            <div class="smallAvatar">
+                <img src="http://placehold.it/34x34" alt="avatar">
+            </div>
+            <div class="options">
+                <img src="img/options.png">
+                <div class="drop_options">
+                    <ul class="drop_options_box">
+                        <li class="drop_options_item"><a href="#" class="item_discount">Скидка на премиум</a></li>
+                        <li class="drop_options_item"><span class="drop_pictInfo drop_pictInfo_photo"></span><a href="#">Мои фото</a></li>
+                        <li class="drop_options_item"><span class="drop_pictInfo drop_pictInfo_mess"></span><a href="#">Уведомления</a></li>
+                        <li class="drop_options_item"><span class="drop_pictInfo drop_pictInfo_prof"></span><a href="#">Профиль</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="headline">
+        <h2 class="headline_rubric">Что ты думаешь обо мне?</h2>
+    </div>
+
+    <!--end header-->
+
+    <!--content-->
+    <div class="content">
+
+        <div class="columns clearfix">
+            <div class="column__dialogs-users">
+                <div class="column__title">Собеседники</div>
+                <div class="dialogs-users_box">
+                    <ul class="dialogs-users scroll-pane">
+                        <li class="dialogs-user clearfix">
+                            <img class="dialogs-user__pic" src="img/userpic_1.png" alt=""/>
+                            <div class="dialogs-user__data">
+                                <div class="dialogs-user__name">Лена</div>
+                                <span class="dialogs-user__info">20 лет, Москва</span>
+                            </div>
+                        </li>
+                        <li class="dialogs-user dialogs-user__selected clearfix">
+                            <img class="dialogs-user__pic" src="img/userpic_1.png" alt=""/>
+                            <div class="dialogs-user__data">
+                                <div class="dialogs-user__name">Владимир</div>
+                                <span class="dialogs-user__info">20 лет, Москва</span>
+                            </div>
+                        </li>
+                        <li class="dialogs-user clearfix">
+                            <img class="dialogs-user__pic" src="img/userpic_1.png" alt=""/>
+                            <div class="dialogs-user__data">
+                                <div class="dialogs-user__name">Ира</div>
+                                <span class="dialogs-user__info">20 лет, Москва</span>
+                            </div>
+                        </li>
+                        <li class="dialogs-user clearfix">
+                            <img class="dialogs-user__pic" src="img/userpic_1.png" alt=""/>
+                            <div class="dialogs-user__data">
+                                <div class="dialogs-user__name">Марина</div>
+                                <span class="dialogs-user__info">20 лет, Москва</span>
+                            </div>
+                        </li>
+                        <li class="dialogs-user clearfix">
+                            <img class="dialogs-user__pic" src="img/userpic_1.png" alt=""/>
+                            <div class="dialogs-user__data">
+                                <div class="dialogs-user__name">Марина</div>
+                                <span class="dialogs-user__info">20 лет, Москва</span>
+                            </div>
+                        </li>
+                        <li class="dialogs-user clearfix">
+                            <img class="dialogs-user__pic" src="img/userpic_1.png" alt=""/>
+                            <div class="dialogs-user__data">
+                                <div class="dialogs-user__name">Марина</div>
+                                <span class="dialogs-user__info">20 лет, Москва</span>
+                            </div>
+                        </li>
+                        <li class="dialogs-user clearfix">
+                            <img class="dialogs-user__pic" src="img/userpic_1.png" alt=""/>
+                            <div class="dialogs-user__data">
+                                <div class="dialogs-user__name">Марина</div>
+                                <span class="dialogs-user__info">20 лет, Москва</span>
+                            </div>
+                        </li>
+                        <li class="dialogs-user clearfix">
+                            <img class="dialogs-user__pic" src="img/userpic_1.png" alt=""/>
+                            <div class="dialogs-user__data">
+                                <div class="dialogs-user__name">Марина</div>
+                                <span class="dialogs-user__info">20 лет, Москва</span>
+                            </div>
+                        </li>
+                        <li class="dialogs-user clearfix">
+                            <img class="dialogs-user__pic" src="img/userpic_1.png" alt=""/>
+                            <div class="dialogs-user__data">
+                                <div class="dialogs-user__name">Марина</div>
+                                <span class="dialogs-user__info">20 лет, Москва</span>
+                            </div>
+                        </li>
+                        <li class="dialogs-user clearfix">
+                            <img class="dialogs-user__pic" src="img/userpic_1.png" alt=""/>
+                            <div class="dialogs-user__data">
+                                <div class="dialogs-user__name">Марина</div>
+                                <span class="dialogs-user__info">20 лет, Москва</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column__dialogs-window">
+                <div class="column__title clearfix">
+                    <span class="user__name">Елизавета</span>
+                    <span class="user__data">24 года, Киев</span>
+                    <span class="user__status user__status-active"></span>
+                    <div class="user__additionally">
+                        <a class="additionally__item additionally__item__selected" href="#">общение</a>
+                        <a class="additionally__item" href="#">фотоальбом</a>
+                        <a class="additionally__item" href="#">подарки</a>
+                    </div>
+                </div>
+                <div class="column__dialogs-wrap clearfix">
+                    <div class="user__photo">
+                        <div class="user__avatar">
+                            <img class="user__avatar-pic" src="img/avatar1.png" alt=""/>
+                        </div>
+                        <ul class="user__photo-ribbon">
+                            <li class="user__photo-ribbon-item">
+                                <img src="img/minipic.png" alt=""/>
+                            </li>
+                            <li class="user__photo-ribbon-item">
+                                <img src="img/minipic.png" alt=""/>
+                            </li>
+                            <li class="user__photo-ribbon-item">
+                                <img src="img/minipic.png" alt=""/>
+                            </li>
+                        </ul>
+                        <div class="user__reply-button giveGift">
+                            Сделать подарок
+                            <i class="reply-button__icon dropdown_activ"></i>
+                            <ul  class="dropdown__menu">
+                                <li class="dropdown__item"><a class="dropdown__item_a" href="#"><i class="dropdown__item-icon icon__heart"></i>Мне нравится</a></li>
+                                <li class="dropdown__item"><a class="dropdown__item_a" href="#"><i class="dropdown__item-icon icon__stop"></i>Блокировать</a></li>
+                                <li class="dropdown__item"><a class="dropdown__item_a" href="#"><i class="dropdown__item-icon icon__spam"></i>Спам</a></li>
+                                <li class="dropdown__item"><a class="dropdown__item_a" href="#"><i class="dropdown__item-icon icon__remove"></i>Удалить</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dialogs-area">
+                        <div class="dialogs-messages scroll-pane">
+                            <div class="scroll-wrap">
+
+                                <div class="messageBox">
+                                    <div class="author-info">
+                                        <a class="author" href="#">Alex</a>
+                                        <span class="message-time clearfix">14:23</span>
+                                    </div>
+                                    <div class="message_text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, minus?</p>
+                                    </div>
+                                </div>
+
+                                <div class="messageBox">
+                                    <div class="author-info">
+                                        <a class="author" href="#">Alex</a>
+                                        <span class="message-time">14:23</span>
+                                    </div>
+                                    <div class="message_text">
+                                        <p>посмотреть что тут</p>
+                                    </div>
+                                </div>
+
+                                <div class="messageBox system-messageBox">
+                                    <p class="system-message_action"><span>Maria </span> загрузила в свой альбом 3 фотографии</p>
+                                    <ul class="user__photo-ribbon photo-ribbon_messBox">
+                                        <li class="user__photo-ribbon-item">
+                                            <img src="img/minipic.png" alt="">
+                                        </li>
+                                        <li class="user__photo-ribbon-item">
+                                            <img src="img/minipic.png" alt="">
+                                        </li>
+                                        <li class="user__photo-ribbon-item">
+                                            <img src="img/minipic.png" alt="">
+                                        </li>
+                                    </ul>
+                                    <a class="system-message_look-in" href="#">Посмотреть её альбом</a>
+                                </div>
+
+                                <div class="messageBox system-messageBox">
+                                    <p class="system-message_action"><span>Maria </span> сменила юзерпик</p>
+                                </div>
+
+                                <div class="dialogs-messages_footnote"><span>Maria </span> прочитала ваше сообщение</div>
+
+                            </div>
+                        </div>
+                        <div class="dialogs-form">
+                            <textarea name="dialogs-message" id="dialog-message"></textarea>
+                            <div class="clearfix">
+                                <div class="dialogs__bottom">
+                                    <ul class="smiles">
+                                        <li class="smile-item">
+                                            <img src="img/smile1.png" alt=""/>
+                                        </li>
+                                        <li class="smile-item">
+                                            <img src="img/smile2.png" alt=""/>
+                                        </li>
+                                        <li class="smile-item">
+                                            <img src="img/smile3.png" alt=""/>
+                                        </li>
+                                    </ul>
+                                    <button type="submit" class="dialogs__submit">Отправить</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--end content-->
+
+<div class="push"></div>
+</div>
+<!--footer-->
+<footer class="footer">
+    <div class="nav_bottom">
+        <a class="nav_bottom_item"  href="#">О проекте</a>
+        <a class="nav_bottom_item"  href="#">Контакты</a>
+        <a class="nav_bottom_item"  href="#">Правила</a>
+        <a class="nav_bottom_item"  href="#">Политика конфиденциальности</a>
+        <a class="nav_bottom_item"  href="#">Советы по безопасности</a>
+        <a class="nav_bottom_item"  href="#">Поддержка</a>
+    </div>
+</footer>
+
+
+
+</body>
+<script  type="text/javascript" src="libs/base-js"></script>
+</html>

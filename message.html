@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>message</title>
+    <script  type="text/javascript" src="libs/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="libs/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="libs/jquery.jscrollpane.min.js"></script>
+    <link rel="stylesheet" href="css/base.css"/>
+</head>
+<body>
+<div class="wrapper">
+    <!--header-->
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="img/logo.png" alt="logo">
+    </a>
+    <div class="navbar">
+        <nav class="nav">
+            <a class="nav_item" href="#">Симпатии</a>
+            <a class="nav_item" href="#">Онлайн</a>
+            <a class="nav_item" href="#">Сообщения</a> <span class="nav_item_number">8</span>
+            <a class="nav_item" href="#">Монстрик</a>
+        </nav>
+        <div class="updatesbox">
+            <span id="updates">Обновления</span>
+            <div class="drop_updates">
+                <ul class="drop_updates_box">
+                    <li class="drop_updates_item"><a href="#" class="item_discount">Скидка на премиум</a></li>
+                    <li class="drop_updates_item"><span class="drop_pictInfo drop_pictInfo_orange">13</span><a href="#">Взаимные симпатии</a></li>
+                    <li class="drop_updates_item"><span class="drop_pictInfo drop_pictInfo_orange"> 87</span><a href="#">Мне нравятся</a></li>
+                    <li class="drop_updates_item"><span class="drop_pictInfo"></span><a href="#">Кому я нравлюсь</a></li>
+                    <li class="drop_updates_item"><span class="drop_pictInfo"></span><a href="#">Контакты</a></li>
+                    <li class="drop_updates_item"><span class="drop_pictInfo"></span><a href="#">Мое фото оценили</a></li>
+                    <li class="drop_updates_item"><span class="drop_pictInfo drop_pictInfo_orange">5</span><a href="#">Посетители</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="profileBox">
+        <div class="profileBox_money">256</div>
+        <div class="smallAvatar">
+            <img src="http://placehold.it/34x34" alt="avatar">
+        </div>
+        <div class="options">
+            <img src="img/options.png">
+            <div class="drop_options">
+                <ul class="drop_options_box">
+                    <li class="drop_options_item"><a href="#" class="item_discount">Скидка на премиум</a></li>
+                    <li class="drop_options_item"><span class="drop_pictInfo drop_pictInfo_photo"></span><a href="#">Мои фото</a></li>
+                    <li class="drop_options_item"><span class="drop_pictInfo drop_pictInfo_mess"></span><a href="#">Уведомления</a></li>
+                    <li class="drop_options_item"><span class="drop_pictInfo drop_pictInfo_prof"></span><a href="#">Профиль</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<div class="headline">
+    <h2 class="headline_rubric">Твои собеседники</h2>
+</div>
+
+    <!--end header-->
+
+    <!--content-->
+<div class="content">
+
+    <ul class="dialogs scroll-pane">
+        <li class="dialogs__row">
+            <div class="dialogs__userpic">
+                <img src="img/dialog__userpic1.png" alt="">
+            </div>
+            <div class="dialogs__msg">
+                <div class="dialogs__userinfo">
+                    <a class="dialogs__username" href="#">Юлия</a>
+                    <span class="dialogs__user-data">19 лет, Владивосток</span>
+                </div>
+                <p class="dialog__msg-content">Прокомментируй мои новые фото</p>
+            </div>
+            <a class="dialogs__reply-button reply-button" href="#">
+                Ответить
+                <i class="reply-button__icon"></i>
+            </a>
+            <div class="dialogs__remove">
+
+            </div>
+        </li>
+        <li class="dialogs__row">
+            <div class="dialogs__userpic">
+                <img src="img/dialog__userpic1.png" alt="">
+            </div>
+            <div class="dialogs__msg">
+                <div class="dialogs__userinfo">
+                    <a class="dialogs__username" href="#">Маша</a>
+                    <span class="dialogs__user-data">29 лет, Москва</span>
+                </div>
+
+                <p class="dialog__msg-content">Прокомментируй мои новые фото</p>
+            </div>
+            <a class="dialogs__reply-button reply-button" href="#">
+                Ответить
+                <i class="reply-button__icon"></i>
+            </a>
+            <div class="dialogs__remove">
+
+            </div>
+        </li>
+        <li class="dialogs__row">
+            <div class="dialogs__userpic">
+                <img src="img/dialog__userpic1.png" alt="">
+            </div>
+            <div class="dialogs__msg">
+                <div class="dialogs__userinfo">
+                    <a class="dialogs__username" href="#">Маша</a>
+                    <span class="dialogs__user-data">29 лет, Москва</span>
+                </div>
+
+                <p class="dialog__msg-content">Прокомментируй мои новые фото</p>
+            </div>
+            <a class="dialogs__reply-button reply-button" href="#">
+                Ответить
+                <i class="reply-button__icon"></i>
+            </a>
+            <div class="dialogs__remove">
+
+            </div>
+        </li>
+        <li class="dialogs__row">
+            <div class="dialogs__userpic">
+                <img src="img/dialog__userpic1.png" alt="">
+            </div>
+            <div class="dialogs__msg">
+                <div class="dialogs__userinfo">
+                    <a class="dialogs__username" href="#">Маша</a>
+                    <span class="dialogs__user-data">29 лет, Москва</span>
+                </div>
+
+                <p class="dialog__msg-content">Прокомментируй мои новые фото</p>
+            </div>
+            <a class="dialogs__reply-button reply-button" href="#">
+                Ответить
+                <i class="reply-button__icon"></i>
+            </a>
+            <div class="dialogs__remove">
+
+            </div>
+        </li>
+        <li class="dialogs__row">
+            <div class="dialogs__userpic">
+                <img src="img/dialog__userpic1.png" alt="">
+            </div>
+            <div class="dialogs__msg">
+                <div class="dialogs__userinfo">
+                    <a class="dialogs__username" href="#">Маша</a>
+                    <span class="dialogs__user-data">29 лет, Москва</span>
+                </div>
+
+                <p class="dialog__msg-content">Прокомментируй мои новые фото</p>
+            </div>
+            <a class="dialogs__reply-button reply-button" href="#">
+                Ответить
+                <i class="reply-button__icon"></i>
+            </a>
+            <div class="dialogs__remove">
+
+            </div>
+        </li>
+        <li class="dialogs__row">
+            <div class="dialogs__userpic">
+                <img src="img/dialog__userpic1.png" alt="">
+            </div>
+            <div class="dialogs__msg">
+                <div class="dialogs__userinfo">
+                    <a class="dialogs__username" href="#">Маша</a>
+                    <span class="dialogs__user-data">29 лет, Москва</span>
+                </div>
+
+                <p class="dialog__msg-content">Прокомментируй мои новые фото</p>
+            </div>
+            <a class="dialogs__reply-button reply-button" href="#">
+                Ответить
+                <i class="reply-button__icon"></i>
+            </a>
+            <div class="dialogs__remove">
+
+            </div>
+        </li>
+    </ul>
+
+</div>
+    <!--end content-->
+
+
+<div class="push"></div>
+</div>
+    <!--footer-->
+<footer class="footer">
+    <div class="nav_bottom">
+        <a class="nav_bottom_item"  href="#">О проекте</a>
+        <a class="nav_bottom_item"  href="#">Контакты</a>
+        <a class="nav_bottom_item"  href="#">Правила</a>
+        <a class="nav_bottom_item"  href="#">Политика конфиденциальности</a>
+        <a class="nav_bottom_item"  href="#">Советы по безопасности</a>
+        <a class="nav_bottom_item"  href="#">Поддержка</a>
+    </div>
+</footer>
+
+</body>
+<script  type="text/javascript" src="libs/base-js"></script>
+</html>

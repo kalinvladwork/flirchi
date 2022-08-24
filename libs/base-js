@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    $(function(){
+        $('.scroll-pane').jScrollPane({
+            scrollbarWidth:12,
+            dragMaxHeight:75});
+    });
+    $('.options').click(function(){
+        $('.drop_options').toggle(400);
+    });
+    $('.updatesbox').click(function(){
+        $('.drop_updates').slideToggle(400);
+    });
+    $('.dropdown_activ').click(function(){
+        $('.dropdown__menu').toggle(400);
+    });
+});
